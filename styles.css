@@ -481,18 +481,18 @@ body {
     position: absolute;
     inset: 0;
     background: var(--hero-gradient);
-    opacity: 0.9;
+    opacity: 0.1;
     z-index: 1;
 }
 
 .hero-bg {
     position: absolute;
     inset: 0;
-    background-image: url('src/assets/hero-community.jpg');
+    background-image: url('community.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.2;
+    opacity: 0.9;
     z-index: 0;
 }
 
@@ -2888,4 +2888,5 @@ body {
     .pdf-download {
         text-align: center;
     }
+
 }
