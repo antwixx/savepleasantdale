@@ -144,7 +144,7 @@ The Story
 
 A developer has proposed building a large gas station at Lemont Road and 97th Street. Many residents are strongly opposed, and petitions have already gathered community support to stop the project.
 
-You can access the petitions and other information at: https://sites.google.com/view/protectlemont
+You can access the petitions and other information at: https://protectpdale.com
 
  Concerns include:
 
@@ -191,7 +191,7 @@ I am reaching out on behalf of concerned residents of the Pleasantdale neighborh
 
 Many residents are strongly opposed, and petitions have already gathered community support to stop the project.
 
-You can access petitions and further details at: https://sites.google.com/view/protectlemont
+You can access petitions and further details at: https://protectpdale.com
 
 Our community has clear and pressing concerns:
 
@@ -435,4 +435,5 @@ function observeElements() {
 }
 
 // Initialize animations when DOM is loaded
+
 document.addEventListener('DOMContentLoaded', observeElements);
