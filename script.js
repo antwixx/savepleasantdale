@@ -90,8 +90,7 @@ function copyTemplate() {
 const templates = {
     'village-board-email': {
         title: 'Village Board Email Template',
-        content: `Subject: Opposition to Proposed Gas Station on Lemont Road / Protect Pleasantdale Community
-
+        content: `Subject: Protect Pleasantdale – Opposition to Proposed Gas Station at Lemont Road and 97th Street
 [Your Name]
 [Your Address]
 Lemont, IL [ZIP]
@@ -105,31 +104,39 @@ Lemont, IL 60439
 
 Dear Board Members,
 
-I am writing as a Lemont resident to strongly oppose the proposed gas station development at Lemont Road and 97th Street. This project poses serious risks to all of Lemont and I urge you to stop any further action that would allow this gas station to continue.
+I am writing as a concerned Lemont resident to respectfully but strongly urge you to reject the proposed gas station development at Lemont Road and 97th Street. This project would create long-term risks for our community, threatening public health, safety, and the environment in ways that cannot be ignored.
 
-Our community has clear and pressing concerns:
+Key Concerns:
 
-Well Water Safety: The families living near the proposed site rely on well water for clean drinking water. Underground fuel tanks, runoff, and spillage from a gas station so close to homes will put drinking water at risk of contamination. Once polluted, our groundwater cannot be easily restored.
+1. Drinking Water & Well Safety
+Many families in the Pleasantdale area depend on private wells for safe drinking water. Gas stations are well-documented sources of groundwater contamination due to underground storage tank leaks, stormwater runoff, and spills at the pump. Once fuel pollutants enter the aquifer, cleanup is costly, often incomplete, and sometimes impossible. Protecting our water must be a top priority.
 
-Traffic and Pedestrian Safety: A high-volume gas station at this location would bring more congestion to an already busy intersection. With the location of Argonne National Laboratory on the East side of Lemont Road and a large truck stop on the West side, this busy intersection would become inherently dangerous.
+2. Traffic & Commuter Safety
+The intersection at Lemont Road and 97th Street already experiences significant congestion, particularly with daily traffic to and from Argonne National Laboratory. Adding a high-volume fueling station — with frequent turns, delivery trucks, and additional traffic — would worsen delays, increase accident risks, and compromise safety for drivers, school buses, and pedestrians.
 
-Public Health and Quality of Life: Gas stations generate added emissions, noise, and light pollution. These impacts are not minor inconveniences — they directly affect the health and well-being of the families who live nearby.
+3. Public Health & Quality of Life
+Gas stations bring continuous emissions of benzene and other harmful compounds, as well as increased noise and light pollution. These are not minor inconveniences. They represent real health and quality-of-life impacts for families living nearby, especially children and vulnerable residents.
 
-Policing and Public Safety Concerns: The proposed gas station would be located on the edge of Lemont, far from the village’s police department and central patrol routes. This distance would make it harder for officers to respond quickly to emergencies, accidents, or criminal activity. Gas stations are often associated with increased calls for service, including traffic incidents, theft, and loitering. Placing one in a location that is more difficult to police stretches resources and puts all residents, both incorporated and not, at greater risk.
+4. Policing & Public Safety
+This proposed station sits on the far edge of Lemont, away from the police department and regular patrol routes. Gas stations consistently generate higher service calls — including traffic accidents, thefts, and disturbances. Placing one in a remote location will stretch policing resources and delay response times when every second counts.
 
-Environmental Concerns: This development would sit directly across from Waterfall Glen Forest Preserve, a unique and irreplaceable natural area that is home to threatened and endangered species such as the state-threatened Blanding’s turtle and the federally endangered Hine’s emerald dragonfly. Years of restoration work and public investment have gone into protecting this preserve, and the risks of pollution, runoff, and habitat disruption from a fueling station could undermine those efforts. 
+5. Environmental Impacts
+The site lies directly across from Waterfall Glen Forest Preserve, one of Illinois’ most unique and biodiverse natural areas. It is home to threatened and endangered species such as the Blanding’s turtle and Hine’s emerald dragonfly. Runoff, habitat disruption, and fuel pollution from a nearby gas station could undermine decades of conservation efforts and public investment in this irreplaceable preserve.
 
-I respectfully urge the Village Board to protect the health, safety, and long-term well-being of our community by rejecting this gas station proposal. Lemont deserves development that supports families, safeguards natural resources, and strengthens our community — not projects that put these at risk.
+Requested Actions:
 
-Thank you for your time and consideration of this important issue.
+For these reasons, I respectfully ask the Village Board to act decisively in protecting the health, safety, and future of our community by denying approval of this gas station proposal. Lemont deserves development that strengthens our neighborhoods and safeguards our natural resources — not projects that compromise them.
+Thank you for your service and for considering the voices of residents who are committed to keeping Lemont a safe and healthy place to live.
+
 
 Sincerely,
 [Your Full Name]
-[Your Contact Information]`
+[Your Contact Information]
+`
     },
     'mayor-email': {
         title: 'News & Media Stations Email Template',
-        content: `Subject: Community Fighting Proposed Gas Station on Lemont Road / Residents Raise Environmental & Safety Concerns Over Gas Station Development
+        content: `Subject: Local Residents Oppose Proposed Gas Station on Lemont Road – Environmental & Safety Concerns
 
 [Your Name]
 [Street Address]
@@ -138,45 +145,49 @@ Sincerely,
 [Phone Number]
 [Date]
 
-I am reaching out on behalf of concerned residents of the Pleasantdale area regarding the proposed construction of a gas station on Lemont Road. We believe this issue deserves urgent attention and coverage because of its significant impact on public safety, property values, and the environment.
 
-The Story
+Dear [News Organization / Reporter Name],
 
-A developer has proposed building a large gas station at Lemont Road and 97th Street. Many residents are strongly opposed, and petitions have already gathered community support to stop the project.
-
-You can access the petitions and other information at: https://protectpdale.com
-
- Concerns include:
-
-Well Water Safety: The families living near the proposed site rely on well water for clean drinking water. Underground fuel tanks, runoff, and spillage from a gas station so close to homes will put drinking water at risk of contamination. Once polluted, our groundwater cannot be easily restored.
-
-Traffic and Pedestrian Safety: A high-volume gas station at this location would bring more congestion to an already busy intersection. With the location of Argonne National Laboratory on the East side of Lemont Road and a large truck stop on the West side, this busy intersection would become inherently dangerous.
-
-Public Health and Quality of Life: Gas stations generate added emissions, noise, and light pollution. These impacts are not minor inconveniences — they directly affect the health and well-being of the families who live nearby.
-
-Policing and Public Safety Concerns: The proposed gas station would be located on the edge of Lemont, far from the village’s police department and central patrol routes. This distance would make it harder for officers to respond quickly to emergencies, accidents, or criminal activity. Gas stations are often associated with increased calls for service, including traffic incidents, theft, and loitering. Placing one in a location that is more difficult to police stretches resources and puts all residents, both incorporated and not, at greater risk.
-
-Environmental Concerns: This development would sit directly across from Waterfall Glen Forest Preserve, a unique and irreplaceable natural area that is home to threatened and endangered species such as the state-threatened Blanding’s turtle and the federally endangered Hine’s emerald dragonfly. Years of restoration work and public investment have gone into protecting this preserve, and the risks of pollution, runoff, and habitat disruption from a fueling station could undermine those efforts. 
+I am reaching out on behalf of concerned residents of the Pleasantdale area regarding the proposed construction of a gas station at Lemont Road and 97th Street. This issue has generated significant community opposition and deserves attention due to its potential impact on public safety, health, property values, and the environment.
 
 
-Why This Matters to Viewers
+The Story:
+A developer has proposed building a large gas station at this location. Many residents have voiced strong opposition, and petitions have already garnered substantial community support to stop the project. Additional details and petitions can be viewed here: https://protectpdale.com.
 
-This is not just a zoning issue — it is a story about families fighting to protect their homes, health, and safety. It represents a larger struggle between commercial development and community well-being.
 
-What We’re Asking
+Community Concerns
 
-We respectfully request your station’s coverage to help raise awareness and give our community a voice. Many residents are eager to speak on camera, and there are visual opportunities at the proposed site that highlight traffic and residential proximity.
+1. Well Water Safety
+Families near the proposed site rely on private wells for drinking water. Underground storage tanks, spills, and stormwater runoff from a gas station could contaminate the groundwater. Once polluted, these aquifers are extremely difficult and costly to restore.
 
-Contact Information
+2. Traffic & Pedestrian Safety
+The intersection of Lemont Road and 97th Street is already heavily congested, particularly with commuters to Argonne National Laboratory and traffic from a nearby truck stop. Additional vehicle entries, turning movements, and fuel deliveries from a gas station would increase congestion, elevate collision risk, and threaten the safety of residents, school buses, and pedestrians.
 
-I would be happy to connect you with residents, local leaders, or petition organizers for interviews. Please feel free to contact me at [phone/email].
+3. Public Health & Quality of Life
+Gas stations contribute emissions, noise, and light pollution. These impacts are more than nuisances—they affect the health and well-being of families, particularly children and sensitive populations.
 
-Thank you for your time and consideration. We hope you will join us in shining a light on this important local issue.
+4. Policing & Public Safety
+The proposed station would be on the edge of Lemont, far from the police department’s main patrol routes. Gas stations are historically associated with higher calls for service, including traffic accidents, theft, and loitering. A remote location would stretch police resources and increase response times.
+
+5. Environmental Concerns
+The site is directly across from Waterfall Glen Forest Preserve, home to threatened and endangered species, including the state-threatened Blanding’s turtle and the federally endangered Hine’s emerald dragonfly. Runoff, pollution, and habitat disruption from the gas station could undermine decades of restoration efforts and public investment in protecting this preserve.
+
+
+Why This Story Matters:
+This issue is about more than zoning. It is about families working to protect their homes, water, and community, and balancing commercial development with public well-being. Coverage of this story can highlight the intersection of environmental protection, public safety, and community advocacy.
+
+
+Request for Coverage:
+We respectfully request your coverage to help raise awareness and give our community a voice. Many residents are available for interviews, and the site offers visual opportunities to illustrate traffic concerns and residential proximity.
+For further information or to arrange interviews, please contact me directly at [phone/email].
+
+Thank you for your time and consideration. We hope your station will help shine a light on this important local issue.
+
 
 Sincerely,
-
 [Your Full Name]
-[Your Contact Information]`
+[Your Contact Information]
+`
     },
     'opposition-letter': {
         title: 'Generic Opposition Letter',
@@ -187,33 +198,37 @@ Sincerely,
 [Phone Number]
 [Date]
 
-I am reaching out on behalf of concerned residents of the Pleasantdale neighborhood in unincorporated Lemont regarding the proposed construction of a gas station on Lemont Road. We believe this issue deserves urgent attention and coverage because of its significant impact on public safety, property values, and the environment.
 
-Many residents are strongly opposed, and petitions have already gathered community support to stop the project.
+Dear Friends and Supporters,
 
-You can access petitions and further details at: https://protectpdale.com
+I am reaching out on behalf of concerned residents of the Pleasantdale neighborhood in unincorporated Lemont regarding the proposed construction of a gas station on Lemont Road. This development poses significant risks to public safety, health, and the environment, and our community strongly opposes it.
+Petitions and community support are already underway to halt this project. You can view the petitions and learn more at: https://protectpdale.com.
 
-Our community has clear and pressing concerns:
+Key Concerns:
 
-Well Water Safety: The families living near the proposed site rely on well water for clean drinking water. Underground fuel tanks, runoff, and spillage from a gas station so close to homes will put drinking water at risk of contamination. Once polluted, our groundwater cannot be easily restored.
+1. Well Water Safety
+Many families near the proposed site rely on private wells for clean drinking water. Gas stations carry the risk of underground storage tank leaks, fuel spills, and contaminated runoff. Once groundwater is polluted, restoration is difficult, costly, and sometimes incomplete.
 
-Traffic and Pedestrian Safety: A high-volume gas station at this location would bring more congestion to an already busy intersection. With the location of Argonne National Laboratory on the East side of Lemont Road and a large truck stop on the West side, this busy intersection would become inherently dangerous.
+2. Traffic & Pedestrian Safety
+The intersection of Lemont Road and 97th Street is already heavily congested, especially with traffic to Argonne National Laboratory and nearby commercial areas. A high-volume gas station would increase turning movements, delivery truck traffic, and congestion, creating heightened risks for drivers, pedestrians, and school buses.
 
-Public Health and Quality of Life: Gas stations generate added emissions, noise, and light pollution. These impacts are not minor inconveniences — they directly affect the health and well-being of the families who live nearby.
+3. Public Health & Quality of Life
+Gas stations produce additional emissions, light, and noise. These impacts are more than minor inconveniences—they directly affect the health and well-being of families living nearby, particularly children and sensitive populations.
 
-Policing and Public Safety Concerns: The proposed gas station would be located on the edge of Lemont, far from the village’s police department and central patrol routes. This distance would make it harder for officers to respond quickly to emergencies, accidents, or criminal activity. Gas stations are often associated with increased calls for service, including traffic incidents, theft, and loitering. Placing one in a location that is more difficult to police stretches resources and puts all residents, both incorporated and not, at greater risk.
+4. Policing & Public Safety
+The proposed location is on the far edge of Lemont, away from the police department and main patrol routes. Gas stations are linked to increased service calls, including traffic accidents, theft, and loitering. A remote site would stretch local law enforcement resources and delay emergency response times.
 
-Environmental Concerns: This development would sit directly across from Waterfall Glen Forest Preserve, a unique and irreplaceable natural area that is home to threatened and endangered species such as the state-threatened Blanding’s turtle and the federally endangered Hine’s emerald dragonfly. Years of restoration work and public investment have gone into protecting this preserve, and the risks of pollution, runoff, and habitat disruption from a fueling station could undermine those efforts. 
+5. Environmental Protection
+The site is directly across from Waterfall Glen Forest Preserve, home to threatened and endangered species such as the Blanding’s turtle and Hine’s emerald dragonfly. Fuel spills, runoff, and habitat disruption could undermine decades of restoration work and public investment in protecting this unique preserve.
 
-
-Please help our community advocate against further movement towards the  constructions of the truck stop/gas station.
-
-
-Thank you for your time and consideration. 
+How You Can Help:
+Please help our community advocate against the construction of this gas station. Your support, awareness, and voice are vital to protecting Pleasantdale’s homes, health, and environment.
+Thank you for your time and consideration.
 
 Sincerely,
 [Your Full Name]
-[Your Contact Information]`
+[Your Contact Information]
+`
     },
     'public-comment': {
         title: 'Public Comment Speaking Points',
@@ -435,5 +450,4 @@ function observeElements() {
 }
 
 // Initialize animations when DOM is loaded
-
 document.addEventListener('DOMContentLoaded', observeElements);
