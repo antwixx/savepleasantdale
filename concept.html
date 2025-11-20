@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protect Pleasantdale Flyer</title>
     <style>
-        /* Import fonts, including the new 'Satisfy' cursive font */
-        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap');
+        /* Importing a sophisticated font stack */
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans:wght@300;400;600&family=Satisfy&display=swap');
 
         :root {
-            --primary-green: #2E5D3F; /* Forest green for nature/community */
-            --accent-gold: #D4AF37; /* Subtle highlight */
-            --text-dark: #333333;
-            --text-light: #555555;
-            --bg-cream: #F9F9F7;
+            --primary-green: #2E5D3F; /* Deep Forest Green */
+            --accent-gold: #D4AF37; /* Muted Gold */
+            --text-dark: #2C2C2C;
+            --text-light: #4A4A4A;
+            --bg-cream: #FDFDFB; /* Slightly warmer white */
         }
 
         * {
@@ -26,8 +26,8 @@
             font-family: 'Open Sans', sans-serif;
             background-color: var(--bg-cream);
             color: var(--text-dark);
-            line-height: 1.6;
-            width: 8.5in; /* Standard Letter size */
+            line-height: 1.7; /* Increased line height for elegance */
+            width: 8.5in; 
             height: 11in;
             margin: 0 auto;
             background: white;
@@ -35,7 +35,7 @@
             position: relative;
         }
 
-        /* Print specific styles to ensure it fits one page perfectly */
+        /* Print specific styles */
         @media print {
             body {
                 width: 100%;
@@ -51,7 +51,7 @@
         .header {
             background-color: var(--primary-green);
             color: white;
-            padding: 40px 50px;
+            padding: 45px 50px;
             position: relative;
             overflow: hidden;
         }
@@ -59,38 +59,40 @@
         .header-content {
             position: relative;
             z-index: 2;
-            width: 65%;
+            width: 62%; /* Giving space for the image */
         }
 
         h1 {
-            /* Changed font to Satisfy */
             font-family: 'Satisfy', cursive;
-            font-size: 48px; /* Increased size slightly for cursive */
+            font-size: 52px;
             font-weight: 400;
-            margin-bottom: 10px;
-            line-height: 1.2;
+            margin-bottom: 8px;
+            line-height: 1.1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .subtitle {
-            font-size: 18px;
-            font-weight: 300;
-            opacity: 0.9;
-            font-style: italic;
             font-family: 'Merriweather', serif;
+            font-size: 16px;
+            font-weight: 300;
+            font-style: italic;
+            opacity: 0.95;
+            letter-spacing: 0.5px;
         }
 
-        /* Decorative circle for an image overlay */
+        /* Circular Image Styling */
         .hero-image-circle {
             position: absolute;
-            top: 20px;
-            right: 40px;
-            width: 220px;
-            height: 220px;
+            top: 25px;
+            right: 45px;
+            width: 230px;
+            height: 230px;
             border-radius: 50%;
-            border: 5px solid rgba(255,255,255,0.3);
+            border: 6px solid rgba(255,255,255,0.25);
             overflow: hidden;
-            background-color: #ddd;
+            background-color: #e0e0e0;
             z-index: 2;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
 
         .hero-image-circle img {
@@ -100,90 +102,133 @@
         }
 
         .container {
-            padding: 40px 50px;
+            padding: 45px 60px;
             display: flex;
             flex-direction: column;
-            gap: 25px;
+            gap: 30px;
         }
 
-        .story-section {
-            border-left: 4px solid var(--primary-green);
-            padding-left: 20px;
-        }
-
+        /* Typography Styling */
         h2 {
             font-family: 'Merriweather', serif;
             color: var(--primary-green);
-            font-size: 22px;
-            margin-bottom: 10px;
+            font-size: 20px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+            display: inline-block;
         }
 
         p {
-            font-size: 14px;
+            font-size: 13.5px;
             color: var(--text-light);
             margin-bottom: 15px;
             text-align: justify;
+            font-weight: 300; /* Lighter weight for style */
         }
 
+        strong {
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .story-section {
+            padding-right: 10px;
+        }
+
+        /* Highlight/Map Box Styling */
         .highlight-box {
-            background-color: #f0f7f2;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid #dcebd0;
+            background-color: #f4f8f5;
+            padding: 25px;
+            border-radius: 4px;
+            border-left: 5px solid var(--primary-green); /* Distinct accent */
             display: flex;
-            gap: 20px;
-            align-items: center;
+            gap: 25px;
+            align-items: flex-start;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
         }
 
         .highlight-box img {
-            width: 150px; /* Resized for better visibility */
+            width: 160px;
             height: auto;
             object-fit: contain;
-            border-radius: 4px;
-            border: 2px solid white;
+            border: 1px solid #ccc;
+            background: white;
+            padding: 3px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
-        .highlight-text {
-            flex: 1;
+        .highlight-text h3 {
+            font-family: 'Merriweather', serif;
+            font-size: 18px;
+            color: var(--text-dark);
+            margin-bottom: 8px;
         }
 
+        /* Impact Grid Styling */
         .impact-grid {
             display: flex;
             justify-content: space-between;
-            gap: 20px;
-            margin-top: 10px;
+            gap: 25px;
+            margin-top: 5px;
         }
 
         .impact-item {
             flex: 1;
             text-align: center;
-            padding: 15px;
-            background: white;
-            border: 1px solid #eee;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            padding: 0 10px;
         }
 
-        .impact-item strong {
-            display: block;
+        .impact-item h4 {
             color: var(--primary-green);
-            font-size: 16px;
-            margin-bottom: 5px;
             font-family: 'Merriweather', serif;
+            font-size: 15px;
+            margin-bottom: 8px;
+            font-weight: 700;
         }
 
+        .impact-item p {
+            font-size: 12px;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        /* Footer Styling */
         .footer {
             position: absolute;
             bottom: 0;
             width: 100%;
-            /* Changed background color to match header */
             background-color: var(--primary-green);
-            color: white;
-            padding: 20px 50px;
+            color: #ffffff !important; /* Force white text */
+            padding: 25px 50px;
             text-align: center;
-            font-size: 12px;
+            font-size: 13px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
         }
+        
+        .footer strong {
+            color: #ffffff !important;
+            font-weight: 600;
+        }
+
+        /* Call to Action Area */
+        .cta-area {
+            text-align: center;
+            margin-top: 10px;
+            padding: 15px;
+            background-color: white;
+            border-top: 1px solid #eee;
+        }
+        
+        .cta-area em {
+            font-family: 'Merriweather', serif;
+            color: var(--text-dark);
+            font-size: 15px;
+        }
+
     </style>
 </head>
 <body>
@@ -191,7 +236,7 @@
     <div class="header">
         <div class="header-content">
             <h1>Protect Pleasantdale</h1>
-            <div class="subtitle">More than a neighborhood. It’s our home.</div>
+            <div class="subtitle">Defending our neighborhood, our history, and our future.</div>
         </div>
         
         <div class="hero-image-circle">
@@ -202,53 +247,54 @@
     <div class="container">
 
         <div class="story-section">
-            <h2>A Community of Care</h2>
+            <h2>A Sanctuary, Not Just a Subdivision</h2>
             <p>
-                Tucked away in unincorporated Lemont, Illinois, Pleasantdale is more than just a subdivision; it is a sanctuary. Since 1957, our 320 single-family homes have been a place where neighbors know each other by name, where retirees watch over young families, and where children ride their bikes safely down quiet, tree-lined streets.
+                Pleasantdale is a place where roots run deep. For nearly seven decades, our winding, tree-lined streets have been a sanctuary for families seeking a quieter life. It is a mosaic of generations—where grandparents who built their homes in the 1950s now wave to young children learning to ride their bikes on the very same sidewalks. 
             </p>
             <p>
-                We are a community built on history and connection. But today, that peace is under threat.
+                We are a community defined by connection, safety, and the peaceful stillness of nature. But today, an industrial shadow looms over our homes, threatening to unravel the fabric of our neighborhood forever.
             </p>
         </div>
 
         <div class="highlight-box">
-            <img src="map.jpg?format=500w" alt="Pleasantdale subdivision and proposed site map">
+            <img src="map.jpg?format=500w" alt="Pleasantdale Map">
             
             <div class="highlight-text">
-                <h2>The Threat to Our Health & Home</h2>
+                <h3>Disrupting the Peace</h3>
+                <p>
+                    A massive commercial development—a <strong>Gas N Wash truck stop</strong>—is proposed right at our doorstep. As illustrated, this project would forcefully insert heavy industry into a fragile residential ecosystem. 
+                </p>
                 <p style="margin-bottom:0;">
-                    A proposed large-scale <strong>Gas N Wash truck stop</strong> is targeting our borders. As shown on the map, this development threatens to bring massive commercial traffic, underground fuel storage, and noise pollution directly to our residential doorsteps and the adjacent forest preserve.
+                    This is not just about zoning; it is about the encroachment of noise, pollution, and danger upon a community that was never designed to sustain it.
                 </p>
             </div>
         </div>
 
         <div class="impact-grid">
             <div class="impact-item">
-                <strong>Environment</strong>
-                <p>Risk of groundwater and air pollution affecting the adjacent <em>Waterfall Glen Forest Preserve</em>.</p>
+                <h4>Protecting Nature</h4>
+                <p>Preserving the delicate air and groundwater quality of the adjacent <em>Waterfall Glen Forest Preserve</em> from industrial runoff and fumes.</p>
             </div>
             <div class="impact-item">
-                <strong>Safety</strong>
-                <p>Heavy truck traffic on local roads endangering our children and pedestrians.</p>
+                <h4>Safety First</h4>
+                <p>Preventing 18-wheelers from flooding the local roads where our children wait for school buses and families walk their dogs.</p>
             </div>
             <div class="impact-item">
-                <strong>Future</strong>
-                <p>Irreversible damage to the character and property values of a historic neighborhood.</p>
+                <h4>Preserving Legacy</h4>
+                <p>Stopping irreversible damage to the character of a historic neighborhood that has stood as a safe haven since 1957.</p>
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 20px;">
-            <h2 style="color: #333;">Stand With Us</h2>
-            <p style="text-align: center; max-width: 600px; margin: 0 auto;">
-                We are asking our community and neighbors to lend their voices and support. Help us advocate for responsible zoning that prioritizes people and nature over profit.
-            </p>
+        <div class="cta-area">
+            <p><em>"We are strong because we look out for one another. We ask you to look out for us, too."</em></p>
+            <p style="font-size: 12px; color: #666; margin-top:5px;">We invite our community and neighbors to stand with us in opposition to this development.</p>
         </div>
 
     </div>
 
     <div class="footer">
-        <p>Join the movement at <strong>www.ProtectPDale.com</strong></p>
-        <p>Contact us to learn how you can help preserve Pleasantdale for the next generation.</p>
+        <p>Join our coalition at <strong>www.ProtectPDale.com</strong></p>
+        <p>Together, we can ensure Pleasantdale remains a safe place to call home.</p>
     </div>
 
 </body>
