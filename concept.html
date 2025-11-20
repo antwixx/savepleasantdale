@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protect Pleasantdale Flyer</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@400;600;700&display=swap');
+        /* Import fonts, including the new 'Satisfy' cursive font */
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap');
 
         :root {
             --primary-green: #2E5D3F; /* Forest green for nature/community */
@@ -62,9 +63,10 @@
         }
 
         h1 {
-            font-family: 'Merriweather', serif;
-            font-size: 36px;
-            font-weight: 700;
+            /* Changed font to Satisfy */
+            font-family: 'Satisfy', cursive;
+            font-size: 48px; /* Increased size slightly for cursive */
+            font-weight: 400;
             margin-bottom: 10px;
             line-height: 1.2;
         }
@@ -74,6 +76,7 @@
             font-weight: 300;
             opacity: 0.9;
             font-style: italic;
+            font-family: 'Merriweather', serif;
         }
 
         /* Decorative circle for an image overlay */
@@ -133,10 +136,12 @@
         }
 
         .highlight-box img {
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
+            width: 150px; /* Resized for better visibility */
+            height: auto;
+            object-fit: contain;
             border-radius: 4px;
+            border: 2px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
 
         .highlight-text {
@@ -172,38 +177,13 @@
             position: absolute;
             bottom: 0;
             width: 100%;
-            background-color: #333;
+            /* Changed background color to match header */
+            background-color: var(--primary-green);
             color: white;
             padding: 20px 50px;
             text-align: center;
             font-size: 12px;
         }
-
-        .cta-button {
-            display: inline-block;
-            background-color: white;
-            color: var(--primary-green);
-            padding: 8px 20px;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 20px;
-            margin-top: 10px;
-            font-size: 14px;
-        }
-        
-        /* Helper for users to know where to put images */
-        .img-placeholder {
-            background-color: #ccc;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #555;
-            font-size: 10px;
-            text-align: center;
-            height: 100%;
-            width: 100%;
-        }
-
     </style>
 </head>
 <body>
@@ -215,7 +195,7 @@
         </div>
         
         <div class="hero-image-circle">
-            <img src="https://via.placeholder.com/300x300/2E5D3F/FFFFFF?text=Community+Image" alt="Community Image">
+            <img src="https://images.squarespace-cdn.com/content/v1/66be01a9cf23533d765d2705/7b107d19-3c45-4b3b-9482-6f90c418726d/Waterfall+Glen+Forest+Preserve.jpg?format=500w" alt="Waterfall Glen Forest Preserve">
         </div>
     </div>
 
@@ -232,12 +212,12 @@
         </div>
 
         <div class="highlight-box">
-            <img src="https://via.placeholder.com/300x300/D4AF37/FFFFFF?text=Map+or+Nature" alt="Map or Context">
+            <img src="https://images.squarespace-cdn.com/content/v1/66be01a9cf23533d765d2705/5b141810-030c-4c4d-b1d6-936175b170f9/Pleasantdale+subdivision+map.png?format=500w" alt="Pleasantdale subdivision and proposed site map">
             
             <div class="highlight-text">
                 <h2>The Threat to Our Health & Home</h2>
                 <p style="margin-bottom:0;">
-                    A proposed large-scale <strong>Gas N Wash truck stop</strong> is targeting our borders. This development threatens to bring massive commercial traffic, underground fuel storage, and noise pollution directly to our residential doorsteps.
+                    A proposed large-scale <strong>Gas N Wash truck stop</strong> is targeting our borders. As shown on the map, this development threatens to bring massive commercial traffic, underground fuel storage, and noise pollution directly to our residential doorsteps and the adjacent forest preserve.
                 </p>
             </div>
         </div>
@@ -260,7 +240,7 @@
         <div style="text-align: center; margin-top: 20px;">
             <h2 style="color: #333;">Stand With Us</h2>
             <p style="text-align: center; max-width: 600px; margin: 0 auto;">
-                We are asking our non-profit partners to lend their voices and support. Help us advocate for responsible zoning that prioritizes people and nature over profit.
+                We are asking our community and neighbors to lend their voices and support. Help us advocate for responsible zoning that prioritizes people and nature over profit.
             </p>
         </div>
 
